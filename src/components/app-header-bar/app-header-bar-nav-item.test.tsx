@@ -23,6 +23,8 @@ describe('<AppHeaderBarNavItem />', () => {
       return true;
     });
   });
+  
+  // ... normally many other tests go in here ...
 
   it('should throw error, when a fragment is supplied as children', done => {
     cy.on('uncaught:exception', err => {
